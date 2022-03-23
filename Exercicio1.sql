@@ -52,7 +52,7 @@ INSERT INTO tb_personagem (nome, ataque, defesa, vida, raça, classe_id)
 INSERT INTO tb_personagem (nome, ataque, defesa, vida, raça, classe_id)
 	VALUES ("Cael",4000,2300,5000,"Demihumano",3);
 
-tb_categoriasSELECT * FROM tb_personagem WHERE ataque > 2000;
+SELECT * FROM tb_personagem WHERE ataque > 2000;
 SELECT * FROM tb_personagem WHERE defesa BETWEEN 1000 AND 2000;
 SELECT * FROM tb_personagem WHERE nome LIKE "%C%";
 SELECT * FROM tb_personagem INNER JOIN tb_classe on tb_personagem.classe_id = tb_classe.id;
